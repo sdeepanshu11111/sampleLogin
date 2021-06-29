@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+
+.main {
+  width: 30vw;
+  order: 2;
+  min-height: 80vh;
+  /* border: 1px gray solid; */
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+.main img {
+
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.side {
+  height: 100%;
+  width: 70vw;
+  background: url(3d-flame-77.png);
+  background-position: center;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-color:#2779E2;
+}
